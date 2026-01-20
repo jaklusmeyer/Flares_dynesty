@@ -1,8 +1,8 @@
 Meteor: 20251001_060203_combined
-  File name:     ['/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_wide.pickle', '/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_CAMO.pickle']
-  Report file:  /home/users/jaklus/dynesty/20251001_060203/
-  Dynesty file:  /home/users/jaklus/dynesty/20251001_060203/20251001_060203_combined.dynesty
-  Prior file:    /home/users/jaklus/source/WesternMeteorPyLib/wmpl/Dynesty/priors/stony_meteoroid_2ErosFrag.prior
+  File name:     ['/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_wide.pickle', '/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_CAMO.pickle']
+  Report file:  /home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/
+  Dynesty file:  /home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_combined.dynesty
+  Prior file:    /home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/stony_meteoroid_2ErosFrag.prior
   Output folder: /home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined
   Bounds:
     v_init: [500, 68865.24922115817] flags=['norm']
@@ -21,3 +21,43 @@ Meteor: 20251001_060203_combined
     noise_lag: [10, 16.42772742005209] flags=['invgamma']
     noise_lum: [5, 1.991413425447975] flags=['invgamma']
   Fixed Values:  {'zenith_angle': np.float64(1.0422335653956494), 'rho_grain': 3000}
+
+Summary
+=======
+niter: 1737
+ncall: 30368
+eff(%):  5.627
+logz: -583383.574 +/-  0.000
+H info.gain: 10.661
+niter i.e number of metsim simulated events
+ncall i.e. number of likelihood evaluations
+eff(%) i.e. (niter/ncall)*100 eff. of the logL call 
+logz i.e. final estimated evidence
+H info.gain i.e. big H very small peak posterior, low H broad posterior distribution no need for a lot of live points
+
+Tau: 0.19 95CI (0.19 - 0.19) %
+Approx. mass weighted $\rho$ : 2085.00 95CI (2085.00 - 2085.00) kg/m^3
+Real mass weighted $\rho$ : 2085.00 95CI (2085.00 - 2085.00) kg/m^3
+
+Best fit Noise:
+Noise:  | Abs.Mag [-]|     Lum [W]|  Vel [km/s]|     Lag [m]|
+Value:  |        0.94|        2.73|        1.86|       14.53|
+
+Best fit:
+v_init:	68906.80365024613
+m_init:	6.52482866293324e-05
+rho:	2062.0440747954817
+sigma:	2.4382304634753097e-08
+erosion_height_start:	124003.75843316165
+erosion_coeff:	9.923874365773082e-07
+erosion_mass_index:	2.786490877155635
+erosion_mass_min:	1.5378794143534186e-10
+erosion_mass_max:	3.3587058995139196e-10
+erosion_height_change:	114315.22295266362
+erosion_rho_change:	2100.689209475809
+erosion_sigma_change:	1.1511190098808277e-08
+erosion_coeff_change:	2.2902995468665783e-09
+noise_lag:	14.534117159001873
+noise_lum:	2.7331333597395524
+
+Best fit logL: -583372.9132790085
