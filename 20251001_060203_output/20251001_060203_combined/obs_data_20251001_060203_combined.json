@@ -2,21 +2,21 @@
     "noise_lag": 16.42772742005209,
     "noise_lum": 1.991413425447975,
     "file_name": [
-        "/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_wide.pickle",
-        "/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_CAMO.pickle"
+        "/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_wide.pickle",
+        "/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_CAMO.pickle"
     ],
     "P_0m": 840,
     "fps_lum": 80,
     "fps_lag": 80,
     "lum_files": [
-        "/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_wide.pickle",
-        "/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_CAMO.pickle",
-        "/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_wide.pickle",
-        "/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_CAMO.pickle"
+        "/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_wide.pickle",
+        "/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_CAMO.pickle",
+        "/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_wide.pickle",
+        "/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_CAMO.pickle"
     ],
     "lag_files": [
-        "/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_CAMO.pickle",
-        "/home/users/jaklus/dynesty/20251001_060203_output/20251001_060203_combined/20251001_060203_trajectory_CAMO.pickle"
+        "/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_CAMO.pickle",
+        "/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_CAMO.pickle"
     ],
     "v_init": 68865.24922115817,
     "velocities": [
@@ -1975,7 +1975,7 @@
         -30487811.645384707
     ],
     "zenith_angle": 1.0422335653956494,
-    "m_init": 1.2146894643561606e-05,
+    "m_init": 7.288517492169204e-07,
     "dt": 0.005,
     "disruption_on": false,
     "lum_eff_type": 5,
