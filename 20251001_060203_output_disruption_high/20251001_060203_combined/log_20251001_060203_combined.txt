@@ -1,0 +1,65 @@
+Meteor: 20251001_060203_combined
+  File name:     ['/home/users/jaklus/dynesty/20251001_060203_output_disruption_high/20251001_060203_combined/20251001_060203_trajectory_wide.pickle', '/home/users/jaklus/dynesty/20251001_060203_output_disruption_high/20251001_060203_combined/20251001_060203_trajectory_CAMO.pickle']
+  Report file:  /home/users/jaklus/dynesty/20251001_060203_output_disruption_high/20251001_060203_combined/
+  Dynesty file:  /home/users/jaklus/dynesty/20251001_060203_output_disruption_high/20251001_060203_combined/20251001_060203_combined.dynesty
+  Prior file:    /home/users/jaklus/dynesty/20251001_060203_output_disruption_high/20251001_060203_combined/stony_meteoroid_eros+disruption.prior
+  Output folder: /home/users/jaklus/dynesty/20251001_060203_output_disruption_high/20251001_060203_combined
+  Bounds:
+    v_init: [500, 68865.24922115817] flags=['norm']
+    m_init: [1e-06, 0.0002] flags=[]
+    rho: [100, 4000] flags=[]
+    sigma: [1e-09, 5.0000000000000004e-08] flags=[]
+    erosion_height_start: [115773.64314917476, 126051.70152302434] flags=[]
+    erosion_coeff: [-12.0, -6.0] flags=['log']
+    erosion_mass_index: [1, 3] flags=[]
+    erosion_mass_min: [-11.301029995663981, -9.0] flags=['log']
+    erosion_mass_max: [-10.0, -7.0] flags=['log']
+    compressive_strength: [-1.0, 5.0] flags=['log']
+    disruption_mass_index: [1, 3] flags=[]
+    disruption_mass_min_ratio: [-5.0, -0.3010299956639812] flags=['log']
+    disruption_mass_max_ratio: [-5.0, -0.3010299956639812] flags=['log']
+    disruption_mass_grain_ratio: [0, 1] flags=[]
+    noise_lag: [10, 16.42772742005209] flags=['invgamma']
+    noise_lum: [5, 1.991413425447975] flags=['invgamma']
+  Fixed Values:  {'zenith_angle': np.float64(1.0422335653956494), 'disruption_on': True, 'rho_grain': 3000, 'erosion_height_change': 1}
+
+Summary
+=======
+niter: 61
+ncall: 228
+eff(%):  8.379
+logz: -1000000000000000052504760255204420248704468581108159154915854115511802457988908195786371375080447864043704443832883878176942523235360430575644792184786706982848387200926575803737830233794788090059368953234970799945081119038967640880074652742780142494579258788820056842838115669472196386865459400540160.000 +/-  0.000
+H info.gain: -1.217564870259473e+299
+niter i.e number of metsim simulated events
+ncall i.e. number of likelihood evaluations
+eff(%) i.e. (niter/ncall)*100 eff. of the logL call 
+logz i.e. final estimated evidence
+H info.gain i.e. big H very small peak posterior, low H broad posterior distribution no need for a lot of live points
+
+Tau: 0.09 95CI (0.06 - 0.90) %
+Approx. mass weighted $\rho$ : 1827.76 95CI (167.38 - 3891.60) kg/m^3
+Real mass weighted $\rho$ : 1827.76 95CI (167.38 - 3891.60) kg/m^3
+
+Best fit Noise:
+Noise:  | Abs.Mag [-]|     Lum [W]|  Vel [km/s]|     Lag [m]|
+Value:  |        1.93|        3.01|        1.86|       29.58|
+
+Best fit:
+v_init:	69457.79414807445
+m_init:	0.00017792554624510525
+rho:	3897.34167228138
+sigma:	5.189963594069106e-09
+erosion_height_start:	121913.75763671988
+erosion_coeff:	9.432262803672099e-07
+erosion_mass_index:	2.426153667609274
+erosion_mass_min:	6.722117422144493e-12
+erosion_mass_max:	2.9908741600446983e-09
+compressive_strength:	2437.2767312792944
+disruption_mass_index:	2.891337269817562
+disruption_mass_min_ratio:	1.288647778384335e-05
+disruption_mass_max_ratio:	1.0219245337187933e-05
+disruption_mass_grain_ratio:	0.4570540282263863
+noise_lag:	29.57621549204039
+noise_lum:	3.008214716924992
+
+Best fit logL: -inf
