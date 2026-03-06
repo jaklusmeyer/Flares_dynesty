@@ -1,0 +1,67 @@
+Meteor: 20251001_060203_combined
+  File name:     ['/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory_wide.pickle', '/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory.pickle']
+  Report file:  /home/users/jaklus/dynesty/20251001_060203/
+  Dynesty file:  /home/users/jaklus/dynesty/20251001_060203/20251001_060203_combined.dynesty
+  Prior file:    /home/users/jaklus/source/WesternMeteorPyLib/wmpl/Dynesty/priors/stony_meteoroid_eros+disruption.prior
+  Output folder: /home/users/jaklus/dynesty/20251001_060203_output_disruption_high_zbig/20251001_060203_combined
+  Bounds:
+    v_init: [500, 68943.18375165433] flags=['norm']
+    m_init: [1e-06, 0.0002] flags=[]
+    rho: [100, 4000] flags=[]
+    sigma: [1e-09, 5.0000000000000004e-08] flags=[]
+    erosion_height_start: [114214.02043751099, 127611.32423468812] flags=[]
+    erosion_coeff: [-12.0, -6.0] flags=['log']
+    erosion_mass_index: [1, 3] flags=[]
+    erosion_mass_min: [-11.301029995663981, -9.0] flags=['log']
+    erosion_mass_max: [-10.0, -7.0] flags=['log']
+    compressive_strength: [-1.0, 5.0] flags=['log']
+    disruption_mass_index: [1, 3] flags=[]
+    disruption_mass_min_ratio: [-5.0, -0.3010299956639812] flags=['log']
+    disruption_mass_max_ratio: [-5.0, -0.3010299956639812] flags=['log']
+    disruption_mass_grain_ratio: [0, 1] flags=[]
+    noise_lag: [10, 8.187437802499199] flags=['invgamma']
+    noise_lum: [5, 1.9914334614535325] flags=['invgamma']
+  Fixed Values:  {'zenith_angle': np.float64(1.0420019029585341), 'disruption_on': True, 'rho_grain': 3000, 'erosion_height_change': 1}
+
+Summary
+=======
+niter: 23101
+ncall: 2046279
+eff(%):  0.975
+logz: -670.545 +/-  0.129
+H info.gain: 24.557
+niter i.e number of metsim simulated events
+ncall i.e. number of likelihood evaluations
+eff(%) i.e. (niter/ncall)*100 eff. of the logL call 
+logz i.e. final estimated evidence
+H info.gain i.e. big H very small peak posterior, low H broad posterior distribution no need for a lot of live points
+
+Tau: 0.30 95CI (0.06 - 1.66) %
+Approx. mass weighted $\rho$ : 1112.47 95CI (140.06 - 3422.27) kg/m^3
+Real mass weighted $\rho$ : 1111.72 95CI (137.25 - 3376.06) kg/m^3
+
+Best fit Noise:
+Noise:  | Abs.Mag [-]|     Lum [W]|  Vel [km/s]|     Lag [m]|
+Value:  |        1.05|       10.33|        0.93|       61.45|
+
+Best fit:
+v_init:	68943.79609598947
+m_init:	5.335900669111322e-05
+rho:	386.1805634081179
+sigma:	1.5029465438676313e-08
+erosion_height_start:	120797.1044045673
+erosion_coeff:	1.07643290172008e-08
+erosion_mass_index:	1.5368527059435468
+erosion_mass_min:	5.324231816996105e-10
+erosion_mass_max:	6.630650065273417e-10
+compressive_strength:	6.320929961581479
+disruption_mass_index:	1.1471531051932742
+disruption_mass_min_ratio:	2.2676812414760934e-05
+disruption_mass_max_ratio:	6.584592231911704e-05
+disruption_mass_grain_ratio:	0.9151435513628136
+noise_lag:	61.44551653760497
+noise_lum:	10.33260055386353
+
+Best fit logL: -644.4427600356231
+
+Time to run dynesty: 22:12:50.078994
