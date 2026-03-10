@@ -2025,7 +2025,7 @@
     "zenith_angle": 1.0412959082119353,
     "m_init": 1.4097414111261687e-05,
     "dt": 0.005,
-    "disruption_on": false,
+    "disruption_on": true,
     "lum_eff_type": 5,
     "h_kill": 94267.10730590133,
     "v_kill": 60267.264220098565
