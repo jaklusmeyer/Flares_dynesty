@@ -63,3 +63,47 @@ noise_lag:	8.777182915164714
 noise_lum:	2.6087892965987285
 
 Best fit logL: -3820371.1295134025
+
+Error encountered in dynestsy run: Function execution timed out
+Summary
+=======
+niter: 2514
+ncall: 131854
+eff(%):  1.899
+logz: -284446.960 +/-  0.000
+H info.gain: 12.346
+niter i.e number of metsim simulated events
+ncall i.e. number of likelihood evaluations
+eff(%) i.e. (niter/ncall)*100 eff. of the logL call 
+logz i.e. final estimated evidence
+H info.gain i.e. big H very small peak posterior, low H broad posterior distribution no need for a lot of live points
+
+Tau: 1.25 95CI (1.25 - 1.25) %
+Approx. mass weighted $\rho$ : 1354.22 95CI (1354.22 - 1354.22) kg/m^3
+Real mass weighted $\rho$ : 1567.88 95CI (1567.88 - 1567.88) kg/m^3
+
+Best fit Noise:
+Noise:  | Abs.Mag [-]|     Lum [W]|  Vel [km/s]|     Lag [m]|
+Value:  |        1.92|        9.70|        0.87|        7.84|
+
+Best fit:
+v_init:	69526.68661616054
+m_init:	1.7833551947785752e-05
+rho:	1354.2155343387312
+sigma:	2.8119163159004655e-08
+erosion_height_start:	122256.82197611996
+erosion_coeff:	5.774985364734424e-08
+erosion_mass_index:	2.955331694327879
+erosion_mass_min:	2.7083530787078495e-10
+erosion_mass_max:	8.411537480611486e-10
+compressive_strength:	23479.29179149498
+disruption_mass_index:	1.0232230047560822
+disruption_mass_min_ratio:	0.0021498168376753455
+disruption_mass_max_ratio:	0.06044271911778105
+disruption_mass_grain_ratio:	0.5034733645527742
+noise_lag:	7.835479062581658
+noise_lum:	9.704473901086327
+
+Best fit logL: -284434.6134497034
+Error encountered in dynestsy plot: Contour levels must be increasing
+Time to run dynesty: 11:50:22.956229
