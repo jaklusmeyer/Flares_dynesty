@@ -1,0 +1,31 @@
+Meteor: 20251001_060203
+  File name:     ['/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory.pickle']
+  Report file:  /home/users/jaklus/dynesty/20251001_060203/
+  Dynesty file:  /home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory.dynesty
+  Prior file:    /home/users/jaklus/source/WesternMeteorPyLib/wmpl/Dynesty/priors/stony_meteoroid_eros+disruption_highfragile.prior
+  Output folder: /home/users/jaklus/dynesty/20251001_060203_output_disruption_high_zbig/leading/2erosfragprior/20251001_060203
+  Bounds:
+    v_init: [500, 68858.27395938076] flags=['norm']
+    m_init: [1e-06, 0.0002] flags=[]
+    rho: [100, 4000] flags=[]
+    sigma: [1e-09, 5.0000000000000004e-08] flags=[]
+    erosion_height_start: [113433.2135809463, 118145.4547216787] flags=[]
+    erosion_coeff: [-12.0, -6.0] flags=['log']
+    erosion_mass_index: [1, 3] flags=[]
+    erosion_mass_min: [-11.301029995663981, -9.0] flags=['log']
+    erosion_mass_max: [-10.0, -7.0] flags=['log']
+    erosion_height_change: [-12.0, -6.0] flags=[]
+    erosion_rho_change: [1, 3] flags=[]
+    erosion_sigma_change: [-11.301029995663981, -9.0] flags=[]
+    erosion_coeff_change: [-10.0, -7.0] flags=['log']
+    disruption_mass_min_ratio: [95167.10730590133, 115864.3341513125] flags=['log']
+    disruption_mass_max_ratio: [100, 4000] flags=['log']
+    disruption_mass_grain_ratio: [1e-09, 5.0000000000000004e-08] flags=[]
+    disruption_mass_index: [-12.0, -6.0] flags=[]
+    noise_lag: [-6.0, -3.0] flags=['invgamma']
+    noise_lum: [-4.0, -1.3010299956639813] flags=['invgamma']
+    compressive_strength: [0.3, 1.0] flags=[]
+  Fixed Values:  {'zenith_angle': np.float64(1.0462348935302819), 'disruption_on': True, 'rho_grain': 3000}
+
+Error encountered in dynestsy run: index 15 is out of bounds for axis 0 with size 15Error encountered in dynestsy plot: index 15 is out of bounds for axis 0 with size 15
+Time to run dynesty: 0:00:17.956828
