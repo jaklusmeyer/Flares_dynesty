@@ -1,0 +1,28 @@
+Meteor: 20251001_060203
+  File name:     ['/home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory.pickle']
+  Report file:  /home/users/jaklus/dynesty/20251001_060203/
+  Dynesty file:  /home/users/jaklus/dynesty/20251001_060203/20251001_060203_trajectory.dynesty
+  Prior file:    /home/users/jaklus/source/WesternMeteorPyLib/wmpl/Dynesty/priors/stony_meteoroid_eros+disruption_highfragile.prior
+  Output folder: /home/users/jaklus/dynesty/20251001_060203_output_leadingzbig_2erosfragprior_v2/20251001_060203
+  Bounds:
+    v_init: [500, 68858.27395938076] flags=['norm']
+    m_init: [1e-06, 0.0002] flags=[]
+    rho: [100, 4000] flags=[]
+    sigma: [1e-09, 5.0000000000000004e-08] flags=[]
+    erosion_height_start: [113433.2135809463, 118095.4547216787] flags=[]
+    erosion_coeff: [-12.0, -6.0] flags=['log']
+    erosion_mass_index: [1, 3] flags=[]
+    erosion_mass_min: [-11.301029995663981, -9.0] flags=['log']
+    erosion_mass_max: [-10.0, -7.0] flags=['log']
+    erosion_height_change: [95167.10730590133, 115864.3341513125] flags=[]
+    erosion_rho_change: [100, 4000] flags=[]
+    erosion_sigma_change: [1e-09, 5.0000000000000004e-08] flags=[]
+    erosion_coeff_change: [-12.0, -6.0] flags=['log']
+    compressive_strength: [1000, 2000] flags=[]
+    disruption_mass_index: [1, 3] flags=[]
+    disruption_mass_min_ratio: [-5.0, -0.3010299956639812] flags=['log']
+    disruption_mass_max_ratio: [-5.0, -0.3010299956639812] flags=['log']
+    disruption_mass_grain_ratio: [0, 1] flags=[]
+    noise_lag: [10, 7.664624590877158] flags=['invgamma']
+    noise_lum: [5, 1.9874139895271672] flags=['invgamma']
+  Fixed Values:  {'zenith_angle': np.float64(1.0462348935302819), 'disruption_on': True, 'rho_grain': 3000}
