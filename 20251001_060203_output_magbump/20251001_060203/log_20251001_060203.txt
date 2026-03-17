@@ -29,44 +29,44 @@ Meteor: 20251001_060203
 
 Summary
 =======
-niter: 4757
-ncall: 637211
-eff(%):  0.745
-logz: -200573.704 +/-    nan
+niter: 14947
+ncall: 2367954
+eff(%):  0.631
+logz: -3783.725 +/-    nan
 
 niter i.e number of metsim simulated events
 ncall i.e. number of likelihood evaluations
 eff(%) i.e. (niter/ncall)*100 eff. of the logL call 
 logz i.e. final estimated evidence
 
-Tau: 2.61 95CI (2.61 - 2.61) %
-Approx. mass weighted $\rho$ : 1725.49 95CI (1725.11 - 1725.87) kg/m^3
+Tau: 1.03 95CI (0.85 - 1.14) %
+Approx. mass weighted $\rho$ : 778.39 95CI (358.76 - 1413.55) kg/m^3
 Real mass weighted $\rho$ : 2168.13 95CI (228.58 - 3731.79) kg/m^3
 
 Best fit Noise:
 Noise:  | Abs.Mag [-]|     Lum [W]|  Vel [km/s]|     Lag [m]|
-Value:  |        2.22|       16.19|        1.99|       34.64|
+Value:  |        0.50|       70.40|        1.99|       29.31|
 
 Best fit:
-v_init:	68807.62990811019
-m_init:	1.0318005178853823e-05
-rho:	549.2712702998281
-sigma:	1.6711918284592566e-08
-erosion_height_start:	121049.38281610602
-erosion_coeff:	4.18953059962357e-09
-erosion_mass_index:	2.7519544660570148
-erosion_mass_min:	4.455477012937144e-11
-erosion_mass_max:	7.59246995939954e-09
-erosion_height_change:	107285.7277586467
-erosion_rho_change:	1956.6007544808608
-erosion_sigma_change:	1.1868185177329921e-08
-erosion_coeff_change:	6.052977095035781e-07
-compressive_strength:	1535.1122026007563
-disruption_mass_index:	1.9597976903439214
-disruption_mass_min_ratio:	0.0018232589246241788
-disruption_mass_max_ratio:	0.03729276655904485
-disruption_mass_grain_ratio:	0.7709335808160425
-noise_lag:	34.639621625493994
-noise_lum:	16.187702865627553
+v_init:	69005.70434779042
+m_init:	2.5869704230925805e-05
+rho:	190.90993427003065
+sigma:	1.0143677832649798e-08
+erosion_height_start:	122029.45249300472
+erosion_coeff:	3.7479141894005616e-07
+erosion_mass_index:	2.6588751396939694
+erosion_mass_min:	6.0264921840279536e-12
+erosion_mass_max:	8.799272818034146e-08
+erosion_height_change:	113408.187861457
+erosion_rho_change:	3421.037766982215
+erosion_sigma_change:	2.5356055699028146e-09
+erosion_coeff_change:	6.237271728656523e-12
+compressive_strength:	1170.916378115901
+disruption_mass_index:	1.9168246143438177
+disruption_mass_min_ratio:	0.0007739630627645037
+disruption_mass_max_ratio:	0.008227276705384106
+disruption_mass_grain_ratio:	0.2932336685560377
+noise_lag:	29.310093993062505
+noise_lum:	70.40021760168104
 
-Best fit logL: -200556.10814532486
+Best fit logL: -3748.35308162142
