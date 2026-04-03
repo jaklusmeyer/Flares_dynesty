@@ -70,3 +70,49 @@ noise_lag:	37.18424344500444
 noise_lum:	170.4854365802385
 
 Best fit logL: -3657.728212249278
+
+Summary
+=======
+niter: 35675
+ncall: 5041617
+eff(%):  0.673
+logz: -3334.793 +/-  0.219
+
+niter i.e number of metsim simulated events
+ncall i.e. number of likelihood evaluations
+eff(%) i.e. (niter/ncall)*100 eff. of the logL call 
+logz i.e. final estimated evidence
+
+Tau: 1.22 95CI (1.15 - 1.29) %
+Approx. mass weighted $\rho$ : 1989.35 95CI (1872.02 - 2096.84) kg/m^3
+Real mass weighted $\rho$ : 1989.72 95CI (1873.48 - 2095.98) kg/m^3
+
+Best fit Noise:
+Noise:  | Abs.Mag [-]|     Lum [W]|  Vel [km/s]|     Lag [m]|
+Value:  |        5.89|      136.44|        1.99|       52.52|
+
+Best fit:
+v_init:	69089.2430682488
+m_init:	2.1576751677953766e-05
+rho:	1925.4360065332714
+sigma:	4.083115677777136e-08
+erosion_height_start:	122551.73165527484
+erosion_coeff:	7.20104743139646e-07
+erosion_mass_index:	2.6205221603973534
+erosion_mass_min:	1.812508346761792e-11
+erosion_mass_max:	1.0461875917975861e-10
+erosion_height_change:	104300.22390785176
+erosion_rho_change:	3348.799328712598
+erosion_sigma_change:	3.102550107560833e-08
+erosion_coeff_change:	4.865660156579332e-10
+compressive_strength:	1507.847203083705
+disruption_mass_index:	2.550710429381928
+disruption_mass_min_ratio:	0.005718858578524089
+disruption_mass_max_ratio:	0.006378534135016901
+disruption_mass_grain_ratio:	0.33166958034185995
+noise_lag:	52.5189264803155
+noise_lum:	136.43951285814535
+
+Best fit logL: -3280.0664586008343
+
+Time to run dynesty: 6 days, 1:02:46.079747
